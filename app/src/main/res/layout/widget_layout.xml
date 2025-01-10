@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <!-- TextView to show the countdown -->
+    <TextView
+        android:id="@+id/widgetCountdownText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Days Remaining: 0"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+
+    <!-- Button to set the countdown -->
+    <Button
+        android:id="@+id/setCountdownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Countdown"
+        android:textColor="#ffffff"
+        android:background="@color/primary" />
+</LinearLayout>

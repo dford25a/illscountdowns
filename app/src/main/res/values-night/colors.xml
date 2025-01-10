@@ -1,0 +1,7 @@
+<resources>
+    <!-- Light Theme Text Colors -->
+    <color name="textColorLight">#FFFFFF</color> <!-- White text for dark theme -->
+
+    <!-- Dark Theme Text Colors -->
+    <color name="textColorDark">#000000</color> <!-- Black text for light theme -->
+</resources>
